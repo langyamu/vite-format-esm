@@ -1,0 +1,18 @@
+{
+  "name": "vite-format-esm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/monaco.min.js",
+  "module": "dist/monaco.esm.js",
+  "types": "dist/monaco.d.ts",
+  "scripts": {
+    "build": "vite build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "monaco-editor": "^0.36.1",
+    "vite": "^4.2.1"
+  }
+}
